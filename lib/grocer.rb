@@ -7,10 +7,10 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     if item == name
       return item
+      binding.pry
     else 
       return nil 
     end
-    binding.pry
   end
 
 end
