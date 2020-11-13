@@ -13,6 +13,7 @@ def find_item_by_name_in_collection(name, collection)
       return nil 
     end
   end
+end
 
 end
 
