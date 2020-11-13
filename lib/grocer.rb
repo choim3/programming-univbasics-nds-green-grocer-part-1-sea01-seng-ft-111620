@@ -8,6 +8,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     if item[:item] == name
       puts "hello"
+      return item
     else 
       puts "goodbye"
       puts item
