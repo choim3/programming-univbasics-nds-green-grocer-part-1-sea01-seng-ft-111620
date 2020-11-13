@@ -6,14 +6,8 @@ def find_item_by_name_in_collection(name, collection)
   
   
   collection.each do |item|
-    item.each do |item_type|
       binding.pry
-    if item_type == name
-      puts collection[:item]
-    else 
-      return nil 
-    end
-  end
+  
 end
 
 end
