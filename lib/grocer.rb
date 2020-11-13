@@ -5,6 +5,8 @@ def find_item_by_name_in_collection(name, collection)
     if item_iterator[:item] == name
       return item_iterator
       puts item_iterator
+    else 
+      return nil
     end
   end
 end
