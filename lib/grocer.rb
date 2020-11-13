@@ -10,8 +10,7 @@ def find_item_by_name_in_collection(name, collection)
       puts "hello"
       return item
     else 
-      puts "goodbye"
-      puts item
+      return nil
     end
      # binding.pry
   
