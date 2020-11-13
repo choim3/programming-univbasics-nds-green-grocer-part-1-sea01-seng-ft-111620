@@ -4,6 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   
+  puts collection[:item]
   collection.each do |item|
     item.each do |item_type|
       binding.pry
