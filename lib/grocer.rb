@@ -6,7 +6,7 @@ def find_item_by_name_in_collection(name, collection)
   
   collection.each do |item|
     if item == name
-      return collection[1]
+      puts collection[:item]
     else 
       return nil 
     end
