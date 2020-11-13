@@ -5,7 +5,9 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   
   collection.each do |item|
-    if item == name
+    item.each do |item_type|
+      binding.pry
+    if item_type == name
       puts collection[:item]
     else 
       return nil 
