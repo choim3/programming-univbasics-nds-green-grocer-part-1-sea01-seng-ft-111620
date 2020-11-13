@@ -9,7 +9,8 @@ def find_item_by_name_in_collection(name, collection)
     if item[:item] == name
       puts "hello"
       return item
-    
+    elsif item[:item] != name
+    return nil 
     end
      #binding.pry
   
