@@ -3,8 +3,8 @@ def find_item_by_name_in_collection(name, collection)
   
   collection.each do |item_iterator|
     if item_iterator[:item] == name
+      return item_iterator
     end
-    return item_iterator
   end
 end
   
