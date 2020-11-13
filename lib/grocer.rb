@@ -1,22 +1,16 @@
 require 'pry'
 def find_item_by_name_in_collection(name, collection)
-  # Implement me first!
-  #
-  # Consult README for inputs and outputs
   
-  
-  collection.each do |item|
-    if item[:item] == name
-      puts "hello"
-      return item
-    elsif item[:item] != name
-    return nil 
+  collection.each do |item_iterator|
+    if item_iterator[:item] == name
+      return item_iterator
+    else
+      return nil 
     end
-     #binding.pry
+  end
+end
   
-end
-
-end
+  
 
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
