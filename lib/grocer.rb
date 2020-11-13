@@ -5,7 +5,10 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   
   
-  collection.each do |item, y|
+  collection.each do |item|
+    if item == name
+      puts "hello"
+    end
       binding.pry
   
 end
